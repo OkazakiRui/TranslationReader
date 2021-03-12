@@ -1,0 +1,12 @@
+#test {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  transition: all 1s;
+  //   opacity: 1;
+
+  &:hover {
+    background-color: green;
+    opacity: 0;
+  }
+}

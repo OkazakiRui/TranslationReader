@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="pdfjs/build/pdf.js"></script>
+    <title>PDFJS</title>
+  </head>
+  <body>
+    <h1>PDF.js ブラックジャックによろしく</h1>
+
+    <div>
+      <button id="prev">戻る</button>
+      <button id="next">次へ</button>
+      <button id="translation">言語切り替え</button>
+      &nbsp; &nbsp;
+      <span
+        >Page: <span id="page_num"></span> / <span id="page_count"></span
+      ></span>
+    </div>
+
+    <canvas id="the-canvas"></canvas>
+    <script src="app.js"></script>
+  </body>
+</html>
